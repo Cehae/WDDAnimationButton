@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768C20A91D9671D400E4EDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C20A81D9671D400E4EDAB /* main.m */; };
+		768C20AC1D9671D400E4EDAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C20AB1D9671D400E4EDAB /* AppDelegate.m */; };
+		768C20AF1D9671D400E4EDAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C20AE1D9671D400E4EDAB /* ViewController.m */; };
+		768C20B21D9671D400E4EDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768C20B01D9671D400E4EDAB /* Main.storyboard */; };
+		768C20B41D9671D400E4EDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768C20B31D9671D400E4EDAB /* Assets.xcassets */; };
+		768C20B71D9671D400E4EDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768C20B51D9671D400E4EDAB /* LaunchScreen.storyboard */; };
+		768C20C21D9671D400E4EDAB /* WDDAnimationButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C20C11D9671D400E4EDAB /* WDDAnimationButtonDemoTests.m */; };
+		768C20CD1D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C20CC1D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.m */; };
+		76E503E61D968BB100C122F3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503DC1D968BB100C122F3 /* 1.jpg */; };
+		76E503E71D968BB100C122F3 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503DD1D968BB100C122F3 /* 2.jpg */; };
+		76E503E81D968BB100C122F3 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503DE1D968BB100C122F3 /* 3.jpg */; };
+		76E503E91D968BB100C122F3 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503DF1D968BB100C122F3 /* 4.jpg */; };
+		76E503EA1D968BB100C122F3 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503E01D968BB100C122F3 /* 5.jpg */; };
+		76E503EB1D968BB100C122F3 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503E11D968BB100C122F3 /* 6.jpg */; };
+		76E503EC1D968BB100C122F3 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503E21D968BB100C122F3 /* 7.jpg */; };
+		76E503ED1D968BB100C122F3 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E503E31D968BB100C122F3 /* 8.jpg */; };
+		76E503EE1D968BB100C122F3 /* WDDAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E503E51D968BB100C122F3 /* WDDAnimationButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768C20BE1D9671D400E4EDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768C209C1D9671D400E4EDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768C20A31D9671D400E4EDAB;
+			remoteInfo = WDDAnimationButtonDemo;
+		};
+		768C20C91D9671D400E4EDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768C209C1D9671D400E4EDAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768C20A31D9671D400E4EDAB;
+			remoteInfo = WDDAnimationButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		768C20A41D9671D400E4EDAB /* WDDAnimationButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDDAnimationButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C20A81D9671D400E4EDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		768C20AA1D9671D400E4EDAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		768C20AB1D9671D400E4EDAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		768C20AD1D9671D400E4EDAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		768C20AE1D9671D400E4EDAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		768C20B11D9671D400E4EDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768C20B31D9671D400E4EDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768C20B61D9671D400E4EDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		768C20B81D9671D400E4EDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768C20BD1D9671D400E4EDAB /* WDDAnimationButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDDAnimationButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C20C11D9671D400E4EDAB /* WDDAnimationButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDAnimationButtonDemoTests.m; sourceTree = "<group>"; };
+		768C20C31D9671D400E4EDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768C20C81D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDDAnimationButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768C20CC1D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDDAnimationButtonDemoUITests.m; sourceTree = "<group>"; };
+		768C20CE1D9671D400E4EDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E503DC1D968BB100C122F3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		76E503DD1D968BB100C122F3 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		76E503DE1D968BB100C122F3 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		76E503DF1D968BB100C122F3 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		76E503E01D968BB100C122F3 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		76E503E11D968BB100C122F3 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		76E503E21D968BB100C122F3 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		76E503E31D968BB100C122F3 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		76E503E41D968BB100C122F3 /* WDDAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDDAnimationButton.h; sourceTree = "<group>"; };
+		76E503E51D968BB100C122F3 /* WDDAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDDAnimationButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768C20A11D9671D400E4EDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C20BA1D9671D400E4EDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C20C51D9671D400E4EDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768C209B1D9671D400E4EDAB = {
+			isa = PBXGroup;
+			children = (
+				768C20A61D9671D400E4EDAB /* WDDAnimationButtonDemo */,
+				768C20C01D9671D400E4EDAB /* WDDAnimationButtonDemoTests */,
+				768C20CB1D9671D400E4EDAB /* WDDAnimationButtonDemoUITests */,
+				768C20A51D9671D400E4EDAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768C20A51D9671D400E4EDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768C20A41D9671D400E4EDAB /* WDDAnimationButtonDemo.app */,
+				768C20BD1D9671D400E4EDAB /* WDDAnimationButtonDemoTests.xctest */,
+				768C20C81D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768C20A61D9671D400E4EDAB /* WDDAnimationButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				76E503DA1D968BB100C122F3 /* WDDAnimationButton */,
+				768C20AA1D9671D400E4EDAB /* AppDelegate.h */,
+				768C20AB1D9671D400E4EDAB /* AppDelegate.m */,
+				768C20AD1D9671D400E4EDAB /* ViewController.h */,
+				768C20AE1D9671D400E4EDAB /* ViewController.m */,
+				768C20B01D9671D400E4EDAB /* Main.storyboard */,
+				768C20B31D9671D400E4EDAB /* Assets.xcassets */,
+				768C20B51D9671D400E4EDAB /* LaunchScreen.storyboard */,
+				768C20B81D9671D400E4EDAB /* Info.plist */,
+				768C20A71D9671D400E4EDAB /* Supporting Files */,
+			);
+			path = WDDAnimationButtonDemo;
+			sourceTree = "<group>";
+		};
+		768C20A71D9671D400E4EDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768C20A81D9671D400E4EDAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768C20C01D9671D400E4EDAB /* WDDAnimationButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				768C20C11D9671D400E4EDAB /* WDDAnimationButtonDemoTests.m */,
+				768C20C31D9671D400E4EDAB /* Info.plist */,
+			);
+			path = WDDAnimationButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		768C20CB1D9671D400E4EDAB /* WDDAnimationButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				768C20CC1D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.m */,
+				768C20CE1D9671D400E4EDAB /* Info.plist */,
+			);
+			path = WDDAnimationButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		76E503DA1D968BB100C122F3 /* WDDAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				76E503DB1D968BB100C122F3 /* Resources */,
+				76E503E41D968BB100C122F3 /* WDDAnimationButton.h */,
+				76E503E51D968BB100C122F3 /* WDDAnimationButton.m */,
+			);
+			name = WDDAnimationButton;
+			path = ../../WDDAnimationButton;
+			sourceTree = "<group>";
+		};
+		76E503DB1D968BB100C122F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76E503DC1D968BB100C122F3 /* 1.jpg */,
+				76E503DD1D968BB100C122F3 /* 2.jpg */,
+				76E503DE1D968BB100C122F3 /* 3.jpg */,
+				76E503DF1D968BB100C122F3 /* 4.jpg */,
+				76E503E01D968BB100C122F3 /* 5.jpg */,
+				76E503E11D968BB100C122F3 /* 6.jpg */,
+				76E503E21D968BB100C122F3 /* 7.jpg */,
+				76E503E31D968BB100C122F3 /* 8.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768C20A31D9671D400E4EDAB /* WDDAnimationButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768C20D11D9671D400E4EDAB /* Build configuration list for PBXNativeTarget "WDDAnimationButtonDemo" */;
+			buildPhases = (
+				768C20A01D9671D400E4EDAB /* Sources */,
+				768C20A11D9671D400E4EDAB /* Frameworks */,
+				768C20A21D9671D400E4EDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDDAnimationButtonDemo;
+			productName = WDDAnimationButtonDemo;
+			productReference = 768C20A41D9671D400E4EDAB /* WDDAnimationButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768C20BC1D9671D400E4EDAB /* WDDAnimationButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768C20D41D9671D400E4EDAB /* Build configuration list for PBXNativeTarget "WDDAnimationButtonDemoTests" */;
+			buildPhases = (
+				768C20B91D9671D400E4EDAB /* Sources */,
+				768C20BA1D9671D400E4EDAB /* Frameworks */,
+				768C20BB1D9671D400E4EDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768C20BF1D9671D400E4EDAB /* PBXTargetDependency */,
+			);
+			name = WDDAnimationButtonDemoTests;
+			productName = WDDAnimationButtonDemoTests;
+			productReference = 768C20BD1D9671D400E4EDAB /* WDDAnimationButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		768C20C71D9671D400E4EDAB /* WDDAnimationButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768C20D71D9671D400E4EDAB /* Build configuration list for PBXNativeTarget "WDDAnimationButtonDemoUITests" */;
+			buildPhases = (
+				768C20C41D9671D400E4EDAB /* Sources */,
+				768C20C51D9671D400E4EDAB /* Frameworks */,
+				768C20C61D9671D400E4EDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768C20CA1D9671D400E4EDAB /* PBXTargetDependency */,
+			);
+			name = WDDAnimationButtonDemoUITests;
+			productName = WDDAnimationButtonDemoUITests;
+			productReference = 768C20C81D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768C209C1D9671D400E4EDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WD;
+				TargetAttributes = {
+					768C20A31D9671D400E4EDAB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					768C20BC1D9671D400E4EDAB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 768C20A31D9671D400E4EDAB;
+					};
+					768C20C71D9671D400E4EDAB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 768C20A31D9671D400E4EDAB;
+					};
+				};
+			};
+			buildConfigurationList = 768C209F1D9671D400E4EDAB /* Build configuration list for PBXProject "WDDAnimationButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768C209B1D9671D400E4EDAB;
+			productRefGroup = 768C20A51D9671D400E4EDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768C20A31D9671D400E4EDAB /* WDDAnimationButtonDemo */,
+				768C20BC1D9671D400E4EDAB /* WDDAnimationButtonDemoTests */,
+				768C20C71D9671D400E4EDAB /* WDDAnimationButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768C20A21D9671D400E4EDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E503ED1D968BB100C122F3 /* 8.jpg in Resources */,
+				76E503EB1D968BB100C122F3 /* 6.jpg in Resources */,
+				768C20B71D9671D400E4EDAB /* LaunchScreen.storyboard in Resources */,
+				76E503EA1D968BB100C122F3 /* 5.jpg in Resources */,
+				76E503E91D968BB100C122F3 /* 4.jpg in Resources */,
+				76E503E61D968BB100C122F3 /* 1.jpg in Resources */,
+				76E503E71D968BB100C122F3 /* 2.jpg in Resources */,
+				76E503E81D968BB100C122F3 /* 3.jpg in Resources */,
+				76E503EC1D968BB100C122F3 /* 7.jpg in Resources */,
+				768C20B41D9671D400E4EDAB /* Assets.xcassets in Resources */,
+				768C20B21D9671D400E4EDAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C20BB1D9671D400E4EDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C20C61D9671D400E4EDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768C20A01D9671D400E4EDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C20AF1D9671D400E4EDAB /* ViewController.m in Sources */,
+				768C20AC1D9671D400E4EDAB /* AppDelegate.m in Sources */,
+				76E503EE1D968BB100C122F3 /* WDDAnimationButton.m in Sources */,
+				768C20A91D9671D400E4EDAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C20B91D9671D400E4EDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C20C21D9671D400E4EDAB /* WDDAnimationButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768C20C41D9671D400E4EDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768C20CD1D9671D400E4EDAB /* WDDAnimationButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768C20BF1D9671D400E4EDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768C20A31D9671D400E4EDAB /* WDDAnimationButtonDemo */;
+			targetProxy = 768C20BE1D9671D400E4EDAB /* PBXContainerItemProxy */;
+		};
+		768C20CA1D9671D400E4EDAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768C20A31D9671D400E4EDAB /* WDDAnimationButtonDemo */;
+			targetProxy = 768C20C91D9671D400E4EDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768C20B01D9671D400E4EDAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768C20B11D9671D400E4EDAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768C20B51D9671D400E4EDAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768C20B61D9671D400E4EDAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768C20CF1D9671D400E4EDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		768C20D01D9671D400E4EDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768C20D21D9671D400E4EDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDDAnimationButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wddtest.WDDAnimationButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		768C20D31D9671D400E4EDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDDAnimationButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wddtest.WDDAnimationButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		768C20D51D9671D400E4EDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDDAnimationButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wddtest.WDDAnimationButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDDAnimationButtonDemo.app/WDDAnimationButtonDemo";
+			};
+			name = Debug;
+		};
+		768C20D61D9671D400E4EDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDDAnimationButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wddtest.WDDAnimationButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDDAnimationButtonDemo.app/WDDAnimationButtonDemo";
+			};
+			name = Release;
+		};
+		768C20D81D9671D400E4EDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDDAnimationButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wddtest.WDDAnimationButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDDAnimationButtonDemo;
+			};
+			name = Debug;
+		};
+		768C20D91D9671D400E4EDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDDAnimationButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wddtest.WDDAnimationButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDDAnimationButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768C209F1D9671D400E4EDAB /* Build configuration list for PBXProject "WDDAnimationButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768C20CF1D9671D400E4EDAB /* Debug */,
+				768C20D01D9671D400E4EDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768C20D11D9671D400E4EDAB /* Build configuration list for PBXNativeTarget "WDDAnimationButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768C20D21D9671D400E4EDAB /* Debug */,
+				768C20D31D9671D400E4EDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768C20D41D9671D400E4EDAB /* Build configuration list for PBXNativeTarget "WDDAnimationButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768C20D51D9671D400E4EDAB /* Debug */,
+				768C20D61D9671D400E4EDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768C20D71D9671D400E4EDAB /* Build configuration list for PBXNativeTarget "WDDAnimationButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768C20D81D9671D400E4EDAB /* Debug */,
+				768C20D91D9671D400E4EDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768C209C1D9671D400E4EDAB /* Project object */;
+}
