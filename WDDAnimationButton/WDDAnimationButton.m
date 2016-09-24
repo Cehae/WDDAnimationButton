@@ -98,7 +98,7 @@
 }
 
 
-#define kMaxDistance 80
+#define kMaxDistance 200
 
 -(void)pan:(UIPanGestureRecognizer * )pan
 {
